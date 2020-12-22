@@ -1,0 +1,25 @@
+{
+    "typeOptions": {
+        "0": "Select advertise type",
+        "1": "TV",
+        "2": "INTERNET"
+    },
+    "subtypeOptions": {
+        "0": "Select subtype for ",
+        "TV": {
+            "0": "Generalist",
+            "1": "News",
+            "2": "Sports",
+            "3": "Gastronomy",
+            "4": "Humor",
+            "5": "Adult"
+        },
+        "INTERNET": {
+            "0": "Web",
+            "1": "Social Media",
+            "2": "Mobile app",
+            "3": "Mailing",
+            "4": "Connected objects"
+        }
+    }
+}
