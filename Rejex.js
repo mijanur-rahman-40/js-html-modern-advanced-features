@@ -2,7 +2,7 @@
  * References for Regex
  */
 // Any character except [\^$.|?*+()    Literal character
-// \ followed by any of [\^$.|?*+(){}  Backslash escapes a metacharacter
+// \ followed by any of [\^$.|?*+(){}  Backslash escapes a meta character
 // .   Any character
 // |   Alternation
 // \|  Alternation
@@ -347,3 +347,9 @@ const fixRegex = /good/
 const replaceText = "Okay-Dokoy"
 const result = huhText.replace(fixRegex, replaceText)
 console.log(result)
+
+// Remove Whitespace from Start and End
+const hello = " Hello, World! ";
+const wsRegex = /^\s+|\s+$/g
+const wsResult = hello.replace(wsRegex, '')
+console.log(wsResult)
