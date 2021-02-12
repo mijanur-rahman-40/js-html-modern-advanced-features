@@ -51,4 +51,4 @@ let addNumber = {
 console.log(addNumber.sum())
 const s = Date.now();
 const f = new Date('2020-11-24T13:40:37.297Z')
-console.log(f.getMinutes())
+console.log(f.getMinutes());

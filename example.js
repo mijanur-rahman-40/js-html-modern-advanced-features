@@ -270,7 +270,7 @@ const typeSubtypes = [
 ]
 
 let value = typeSubtypes.find((value => value.type === 'Newspaper'))
-
+console.log('Value',value);
 console.log(typeof (typeSubtypes.findIndex(value => value.type === 'Newspapr')))
 console.log(typeSubtypes.findIndex(value => value.type === 'Newspapr'))
 
